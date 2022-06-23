@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState,useEffect } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import { Appbar, Searchbar,Card,Paragraph} from 'react-native-paper';
 import { ScrollView } from 'react-native-web';
 
