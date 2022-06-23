@@ -22,7 +22,7 @@ export default function App() {
 
   const onChangeSearch = query =>setSearchQuery(query);
   return (
-    <View style={styles.container}>
+    <View>
       <Appbar>
         <Appbar.Content title="Recipe App"/>
       </Appbar>
@@ -49,11 +49,4 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  // container: {
-  //   flex: 1,
-  //   backgroundColor: '#fff',
-  //   alignItems: 'center',
-  //   justifyContent: 'center',
-  // },
-});
+
