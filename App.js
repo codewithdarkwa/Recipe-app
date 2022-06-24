@@ -6,7 +6,6 @@ import { ScrollView } from 'react-native-web';
 
 export default function App() {
   const [meals, setMeals] = useState([]);
-  console.log(meals);
  const  [searchQuery, setSearchQuery] = useState('');
  const url ="https://www.themealdb.com/api/json/v1/1/categories.php";
 
